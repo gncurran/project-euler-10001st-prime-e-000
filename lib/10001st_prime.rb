@@ -1,6 +1,5 @@
 # Find the 10001st prime number
 require 'prime'
-
 def prime_number_for(n)
   i = 0
   find_prime = 1
@@ -11,3 +10,10 @@ def prime_number_for(n)
   end
   return find_prime
 end
+
+# Alternatively,
+
+# require 'mathn'
+# def prime_number_for(n)
+#   return Prime.take(n).last
+# end
